@@ -12,28 +12,32 @@
 
 <body>
   <main>
-    <h3 class="title">Contact Us</h3>
-    <div class="container">
-      <form action="action">
+    <form action="https://api.web3forms.com/submit" method="POST">
 
-        <label for="fname">Full name</label>
-        <input type="text" id="fname" name="fullname" placeholder="Your name..">
+      <input type="hidden" name="access_key" value="8a446d54-b378-49ab-80d0-9e25a3d664c8">
 
-        <label for="email">Email</label>
-        <input type="text" id="lname" name="email" placeholder="Your email...">
+      <h3 class="title">Contact Us</h3>
+      <div class="container">
+        <form action="action">
 
-        <label for="country">Subject</label>
-        <input type="text" id="title" name="title" placeholder="Your Subject">
+          <label for="fname">Full name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your name.." required>
+
+          <label for="email">Email</label>
+          <input type="text" id="lname" name="email" placeholder="Your email..." required>
+
+          <label for="country">Subject</label>
+          <input type="text" id="title" name="title" placeholder="Your Subject" required>
 
 
 
-        <label for="subject">Your Messege</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="subject">Your Messege</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
 
-        <input type="submit" class="button" value="Submit">
+          <input type="submit" class="button" value="Submit">
 
-      </form>
-    </div>
+        </form>
+      </div>
 
   </main>
   <!-- DON'T remove it -->
