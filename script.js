@@ -15,8 +15,9 @@ function validateForm(event) {
 
   if (name && email && title && subject) {
     console.log('Form is valid');
+    form.submit();
   } else {
     console.log('Please fill out everything correctly.');
-    
+   
   }
 } 
