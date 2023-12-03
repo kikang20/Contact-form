@@ -6,8 +6,7 @@
   <title>Contact form</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./style.css">
-  <!-- DO NOT import fonts here. Instead, use the 
-  @import directive in the styles.css file. -->
+
 </head>
 
 <body>
@@ -21,10 +20,12 @@
         <form action="action">
 
           <label for="fname">Full name</label>
-          <input type="text" id="fname" name="fullname" placeholder="Your name.." required>
+          <input type="text" id="name" name="fullname" placeholder="Your name.." required>
+          
 
           <label for="email">Email</label>
-          <input type="text" id="lname" name="email" placeholder="Your email..." required>
+          <input type="email" id="email" name="email" placeholder="email@address.com" required>
+       
 
           <label for="country">Subject</label>
           <input type="text" id="title" name="title" placeholder="Your Subject" required>
@@ -40,8 +41,9 @@
       </div>
 
   </main>
-  <!-- DON'T remove it -->
-  <script src="src/index.js"></script>
+
+  <script src="/index.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
